@@ -1,5 +1,3 @@
-#Author: Hengzhi Wu
-
 #Challenge 1
 def map_score(grades):
     l = list(map(lambda record: [record[0], 20*record[1]/10.0 + 80*record[2]/100.0], grades))
